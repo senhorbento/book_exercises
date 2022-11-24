@@ -8,7 +8,7 @@
 #define MAX_MOEDAS 10
 
 void definirMoedas(int v[]){
-    int falsa = 0;
+    int falsa;
     
     for(int i = 0; i < MAX_MOEDAS; i++)
         v[i]=VERDADEIRA;
